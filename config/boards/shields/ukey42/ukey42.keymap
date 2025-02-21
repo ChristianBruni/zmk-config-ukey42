@@ -8,8 +8,8 @@
 #define FUNCTION    2
 #define BT          3
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+//#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+//#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 / {
     conditional_layer {
@@ -25,7 +25,6 @@
         compatible = "zmk,keymap";
         
         default_layer {
-            display_name = "QWERTY";
 
             bindings = <
                 &mt LS(Q) Q   &mt LS(W) W   &mt LS(E) E   &mt LS(R) R    &mt LS(T) T                               &mt LS(Y) Y   &mt LS(U) U   &mt LS(I) I              &mt LS(O) O                 &mt LS(P) P
@@ -37,8 +36,7 @@
 
 
         numpad_layer {
-            display_name = "NUMPAD";
-
+            
             bindings = <
                 &kp AMPERSAND   &kp PERCENT       &kp KP_PLUS      &kp KP_LEFT_PARENTHESIS   &kp KP_RIGHT_PARENTHESIS                     &mt BACKSLASH PIPE   &kp KP_NUMBER_7   &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp DOLLAR
                 &kp HASH        &kp KP_MULTIPLY   &kp KP_MINUS     &kp LEFT_BRACKET          &kp RIGHT_BRACKET                            &kp SLASH            &kp KP_NUMBER_4   &kp KP_NUMBER_5   &kp KP_NUMBER_6   &kp AT_SIGN 
@@ -49,7 +47,6 @@
 
 
         function_layer {
-            display_name = "FUNCTION";
 
             bindings = <
                 &kp F1           &kp F2       &kp F3                  &kp F4                 &kp F5                               &kp F6            &kp F7     &kp F8        &kp F9          &kp F10 
@@ -61,7 +58,6 @@
 
 
         bt_layer {
-            display_name = "BT";
 
             bindings = <
                 &none            &mmv MOVE_UP     &mkp LCLK         &none       &none                      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bootloader  
