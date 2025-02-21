@@ -30,7 +30,7 @@
             bindings = <
                 &mt LS(Q) Q   &mt LS(W) W   &mt LS(E) E   &mt LS(R) R    &mt LS(T) T                               &mt LS(Y) Y   &mt LS(U) U   &mt LS(I) I              &mt LS(O) O                 &mt LS(P) P
                 &mt LS(A) A   &mt LS(S) S   &mt LS(D) D   &mt LS(F) F    &mt LS(G) G                               &mt LS(H) H   &mt LS(J) J   &mt LS(K) K              &mt LS(L) L                 &mt SEMICOLON COLON
-                &mt LS(Z) Z   &mt LS(X) X   &mt LS(C) C   &mt LS(V) V    &mt LS(B) B                               &mt LS(N) N   &mt LS(M) M   &mt LESS_THAN KP_COMMA   &mt GREATER_THAN KP_DOT    &mt EXCLAMATION QUESTION 
+                &mt LS(Z) Z   &mt LS(X) X   &mt LS(C) C   &mt LS(V) V    &mt LS(B) B                               &mt LS(N) N   &mt LS(M) M   &mt LESS_THAN KP_COMMA   &mt GREATER_THAN KP_DOT     &mt EXCLAMATION QUESTION 
                 &kp LCTRL     &kp TAB       &kp LALT      &mo FUNCTION   &mo NUMPAD    &kp SPACE   &kp BACKSPACE   &kp ENTER     &kp LSHIFT    &kp ESCAPE               &kp DELETE                  &mt GRAVE TILDE2
             >;
         };
@@ -40,9 +40,9 @@
             display_name = "NUMPAD";
 
             bindings = <
-                &kp AMPERSAMD   &kp PERCENT       &kp KP_PLUS      &kp KP_LEFT_PARENTHESIS   &kp KP_RIGHT_PARENTHESIS                     &mt BACKSLASH PIPE   &kp KP_NUMBER_7   &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp DOLLAR
+                &kp AMPERSAND   &kp PERCENT       &kp KP_PLUS      &kp KP_LEFT_PARENTHESIS   &kp KP_RIGHT_PARENTHESIS                     &mt BACKSLASH PIPE   &kp KP_NUMBER_7   &kp KP_NUMBER_8   &kp KP_NUMBER_9   &kp DOLLAR
                 &kp HASH        &kp KP_MULTIPLY   &kp KP_MINUS     &kp LEFT_BRACKET          &kp RIGHT_BRACKET                            &kp SLASH            &kp KP_NUMBER_4   &kp KP_NUMBER_5   &kp KP_NUMBER_6   &kp AT_SIGN 
-                &kp CARET       &kp KP_EQUAL      &kp UNDERSCORE   &kp LEFT_BRACE            &kp RIGHT_BRACE                              &kp KP_NUMBER_0      &kp KP_NUMBER_1   &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp EXCLAMATION 
+                &kp CARET       &kp KP_EQUAL      &kp UNDERSCORE   &kp LEFT_BRACE            &kp RIGHT_BRACE                              &kp KP_NUMBER_0      &kp KP_NUMBER_1   &kp KP_NUMBER_2   &kp KP_NUMBER_3   &trans 
                 &trans          &trans            &trans           &trans                    &trans                     &trans   &trans   &trans               &trans            &trans            &trans            &mt SQT DQT
             >;
         };
