@@ -17,8 +17,8 @@
         bt_layer { 
             if-layer = <NUMPAD FUNCTION>;
             then-layer = <BT>;
-        }
-   }
+        };
+    };
 
 
     keymap {
@@ -70,5 +70,5 @@
                 &trans           &trans           &trans            &trans      &trans   &trans   &trans   &trans         &trans         &trans         &trans         &none     
             >;
         };
-   };
+    };
 };
